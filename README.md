@@ -125,7 +125,7 @@ git log --oneline
 
 # 添加文件到暂存区
 git add <file>
-git add .                  # 添加所有修改
+git add .                  # 添加所有修改 
 
 # 提交代码
 git commit -m "commit message"
@@ -148,5 +148,4 @@ git branch
 # 合并分支到当前分支
 git merge <branch-name>
 ```
-
 修改readme文件liying01
