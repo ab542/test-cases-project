@@ -6,5 +6,8 @@ pytest-cov>=5.0.0
 flake8>=7.0.0
 black>=24.0.0
 
+# PDF text extraction
+PyPDF2>=3.0.0
+
 # Optional: for type checking
 # mypy>=1.8.0
