@@ -95,7 +95,7 @@ pytest -v
 
 ## Example Test
 
-Create `tests/unit/test_example.py`:
+Create `testcases/unit/test_example.py`:
 
 ```python
 def test_example():
@@ -112,4 +112,39 @@ flake8 src/ testcases/ config/ core/ data/ utils/
 Format with black:
 ```bash
 black src/ testcases/ config/ core/ data/ utils/
+```
+
+## 常用 Git 命令
+
+```bash
+# 查看状态
+git status
+
+# 查看提交历史
+git log --oneline
+
+# 添加文件到暂存区
+git add <file>
+git add .                  # 添加所有修改
+
+# 提交代码
+git commit -m "commit message"
+
+# 拉取远程最新代码
+git pull origin main
+
+# 推送本地提交到远程
+git push origin main
+
+# 创建新分支
+git checkout -b <branch-name>
+
+# 切换分支
+git checkout <branch-name>
+
+# 查看所有分支
+git branch
+
+# 合并分支到当前分支
+git merge <branch-name>
 ```
